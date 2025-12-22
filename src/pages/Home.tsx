@@ -102,14 +102,6 @@ export default function Home() {
                   alt="Komunitas digital dan teknologi"
                   className="w-full h-full object-cover rounded-2xl"
                 />
-                
-                {/* Live Map Badge */}
-                <div className="absolute -top-4 -right-4 bg-gradient-to-r from-blue-500 to-cyan-400 text-white px-6 py-3 rounded-2xl shadow-lg z-10">
-                  <div className="flex items-center gap-2">
-                    <MapPin className="w-4 h-4" />
-                    <span className="font-bold">Live Map</span>
-                  </div>
-                </div>
               </div>
             </div>
 
