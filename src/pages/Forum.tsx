@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { 
-  Search, Filter, MessageSquare, Users, Store, TrendingUp, 
-  Star, MapPin, Calendar, Clock, Heart, Share2, MessageCircle,
+  Search, MessageSquare, Users, Store,
+  Star, MapPin, Calendar, Heart, Share2, MessageCircle,
   Plus, ChevronRight, Tag, Award, Eye, ShoppingBag, BookOpen,
   BarChart, TrendingUp as TrendingUpIcon, DollarSign, Users as UsersIcon
 } from "lucide-react";

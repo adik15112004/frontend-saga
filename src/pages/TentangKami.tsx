@@ -1,8 +1,8 @@
 import { 
   Target, Users, Shield, Heart, Globe, Award, 
-  TrendingUp, Clock, CheckCircle, Handshake, 
-  Building2, MapPin, Phone, Mail, Calendar,
-  ChevronRight, Star, Users as UsersIcon, Lightbulb,
+  TrendingUp, CheckCircle,
+  Building2, MapPin, Phone, Mail,
+  Star, Users as UsersIcon, Lightbulb,
   Linkedin, Github, Mail as MailIcon
 } from "lucide-react";
 import { Link } from "react-router-dom";

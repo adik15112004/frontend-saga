@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import { 
   User, Mail, MapPin, Phone, Calendar, Edit, 
-  Shield, History, Star, Award, Settings, 
+  Shield, Star, Award, Settings, 
   LogOut, Building2, Store, Users as UsersIcon, ChevronRight,
-  BookOpen, CreditCard, Bell, Globe, CheckCircle,
+  BookOpen, Bell, Globe, CheckCircle,
   MessageSquare, Eye, Download, Heart
 } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -44,9 +44,8 @@ export default function Profile() {
   const [activeTab, setActiveTab] = useState<'profile' | 'bookings' | 'activities' | 'settings'>('profile');
 
   useEffect(() => {
-    const fetchUserData = () => {
-      const token = localStorage.getItem("token");
-      const userName = localStorage.getItem("userName") || "Pengguna";
+      const fetchUserData = () => {
+        const userName = localStorage.getItem("userName") || "Pengguna";
       const userEmail = localStorage.getItem("userEmail") || "user@example.com";
       const userAvatar = localStorage.getItem("userAvatar") || 
         `https://ui-avatars.com/api/?name=${encodeURIComponent(userName)}&background=10B981&color=fff`;

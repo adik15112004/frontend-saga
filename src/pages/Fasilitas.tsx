@@ -2,7 +2,7 @@ import { useState } from "react";
 import { 
   CheckCircle, Calendar, Clock, Users, MapPin, Building2, 
   CalendarDays, Shield, Award, History, Download, Star, 
-  Filter, Search, ChevronRight, Clock3, UserCheck, Bell
+  Search, ChevronRight, Clock3, UserCheck, Bell
 } from "lucide-react";
 import BookingModal from "../components/BookingModal";
 
@@ -565,11 +565,4 @@ function FAQItem({ question, answer }: { question: string; answer: string }) {
   );
 }
 
-function Feature({ text }: { text: string }) {
-  return (
-    <li className="flex gap-3 items-center text-slate-700">
-      <CheckCircle className="text-green-600 w-5 h-5" />
-      <span>{text}</span>
-    </li>
-  );
-}
+// Removed unused `Feature` component (was declared but never used)

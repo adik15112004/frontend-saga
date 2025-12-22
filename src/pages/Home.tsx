@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { CalendarDays, Users, Store, MessageSquare, Bell, TrendingUp, Shield, Heart, MapPin, CheckCircle, Star, Building2, Home as HomeIcon, Clock, Award, Zap, ChevronRight } from "lucide-react";
+import { CalendarDays, Users, Store, MessageSquare, Bell, TrendingUp, Shield, Heart, MapPin, CheckCircle, Star, Building2, Clock, Award, Zap, ChevronRight } from "lucide-react";
 import { useEffect } from "react";
 
 export default function Home() {
