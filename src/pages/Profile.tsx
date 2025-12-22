@@ -4,7 +4,7 @@ import {
   Shield, Star, Award, Settings, 
   LogOut, Building2, Store, Users as UsersIcon, ChevronRight,
   BookOpen, Bell, Globe, CheckCircle,
-  MessageSquare, Eye, Download, Heart
+  MessageSquare
 } from "lucide-react";
 import { Link } from "react-router-dom";
 

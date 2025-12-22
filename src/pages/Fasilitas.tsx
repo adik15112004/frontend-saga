@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { 
-  CheckCircle, Calendar, Clock, Users, MapPin, Building2, 
+  Calendar, Clock, Users, MapPin, Building2, 
   CalendarDays, Shield, Award, History, Download, Star, 
   Search, ChevronRight, Clock3, UserCheck, Bell
 } from "lucide-react";
