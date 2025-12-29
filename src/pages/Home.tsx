@@ -98,10 +98,10 @@ export default function Home() {
             <div className="bg-gradient-to-br from-white to-green-50 rounded-[3rem] shadow-2xl p-8 md:p-10 transform hover:scale-[1.02] transition duration-500 border border-slate-100">
               <div className="aspect-square relative">
                 <img
-                  src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
-                  alt="Komunitas digital dan teknologi"
-                  className="w-full h-full object-cover rounded-2xl"
-                />
+                src="/images/rptra.jpg"
+                alt="Fasilitas publik"
+                className="w-full h-full object-cover rounded-2xl"
+              />
               </div>
             </div>
 
